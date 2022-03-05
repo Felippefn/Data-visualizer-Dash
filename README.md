@@ -39,7 +39,27 @@ The NPS calculation is very simple. Percentage of Promoters - Percentage of Detr
 <b>The function of this calculation is that:</b>
 
 ```python
-teste
+def nps_calculate(list_):
+    detractor = []
+    neutral = []
+    promoter = []
+
+    for item in list_:
+        if item < 7:
+            detractor.append(item)
+        elif item > 8:
+            promoter.append(item)
+        else:
+            neutral.append(item)
+
+    total = detractor + promoter + neutral
+    nps = ((len(promoter)/len(total))*100) - \
+        ((len(detractor)/len(total))*100)
+    if nps >= 0:
+        nps = nps + 0.45
+    else:
+        nps = nps - 0.45
+    return nps
 
 ```
 
