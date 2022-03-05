@@ -25,7 +25,7 @@ https://dashcx.felippefn.repl.co/
 ```
 ## _How the dashboard works_
 
-The python script found in the file [teste.c](https://github.com/Felippefn/Data-visualizer-Dash/blob/main/main.py), reads a file in excel, and extracts column by column all the information necessary for the script to work. After extracting the information, the NPS (Net Promoter Score) is calculated. In this way, the user can verify all the information of the conditions established in this topic:
+The python script found in the file [main.py](https://github.com/Felippefn/Data-visualizer-Dash/blob/main/main.py), reads a file in excel, and extracts column by column all the information necessary for the script to work. After extracting the information, the NPS (Net Promoter Score) is calculated. In this way, the user can verify all the information of the conditions established in this topic:
 
 ![image](https://user-images.githubusercontent.com/79763393/156893824-afb68f48-edea-4060-aab3-db2608e89751.png)
 
@@ -62,10 +62,3 @@ def nps_calculate(list_):
     return nps
 
 ```
-
- 
-
-
-
-
-
