@@ -36,6 +36,15 @@ You can choose the <b>month</b>, <b>year</b> and <b>communication channel with t
 
 The NPS calculation is very simple. Percentage of Promoters - Percentage of Detractors (%Promoters - %Detractors).
 
+<b>The function of this calculation is that:</b>
+
+```python
+teste
+
+```
+
+ 
+
 
 
 
