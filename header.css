@@ -1,6 +1,11 @@
+@font-face{
+  font-family: bomdia;
+  src: url(JetBrainsMono-Regular.woff2);
+}
+
 body {
   background-color: #001122;
-  font-family: "JetBrains Mono";
+  font-family: bomdia;
 }
 
 .H1-Text {
@@ -118,21 +123,12 @@ body {
 
 #nps-indicator {
   position: absolute;
-  width: 36vh;
+  width: 35vh;
   z-index: 1;
   top: 2%;
-  left: 50%;
+  left: 60%;
   height: 14.5vw;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
-}
-#nps-indicator:hover {
-  box-shadow: 0px 0px 15px 5px #f2e1f2;
-  -webkit-box-shadow: 0px 0px 15px 5px #f2e1f2;
-  -moz-box-shadow: 0px 0px 15px 5px #f2e1f2;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-  transition: 1s ease;
+  /* box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 #promoter-indicator {
@@ -503,13 +499,5 @@ body {
     left: 40%;
     width: 19vw;
     height: 16.5vw;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  #big-div{
-    left: 40%;
-    width: 600px;
-    height: 200px;
   }
 }
