@@ -64,5 +64,5 @@ def nps_calculate(list_):
 
 ```
 
-particular recognition to Vinicius (https://github.com/Vinicius-Santoro) who made this increadible README
+particular recognition to<br>Vinicius (https://github.com/Vinicius-Santoro) who made this increadible README<br>
 Pedro (https://github.com/pedrokrivochein) who supported me with some bugs and problems.
