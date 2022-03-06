@@ -63,3 +63,6 @@ def nps_calculate(list_):
     return nps
 
 ```
+
+particular recognition to Vinicius (https://github.com/Vinicius-Santoro) who made this increadible README
+Pedro (https://github.com/pedrokrivochein) who supported me with some bugs and problems.
